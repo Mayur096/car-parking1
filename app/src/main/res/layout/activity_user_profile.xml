@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Profile"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Welcome"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp">
+
+        <TextView
+            android:id="@+id/EmailAddressTitle"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="EmailAddress"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+
+        <TextView
+            android:id="@+id/EmailAddress"
+            android:layout_width="318dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="120dp"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <TextView
+            android:id="@+id/NameTitle"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="318dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+
+        <TextView
+            android:id="@+id/PhoneNoTitle"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="240dp"
+            android:text="Phone No"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <TextView
+            android:id="@+id/PhoneNo"
+            android:layout_width="317dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="280dp"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+
+        <Button
+            android:id="@+id/parkingSlot"
+            android:layout_width="163dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="400dp"
+            android:onClick="callParkingSlot"
+            android:text="Parking Slot"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="143dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="400dp"
+            android:text="Logout"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="225dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="347dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="480dp"
+            android:text="Update Profile"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="225dp"
+            tools:layout_editor_absoluteY="436dp" />
+    </RelativeLayout>
+
+</LinearLayout>

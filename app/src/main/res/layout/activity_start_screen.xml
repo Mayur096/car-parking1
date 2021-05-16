@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".StartScreen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="136dp"
+        android:src="@drawable/car_parking_2" />
+
+    <ImageView
+        android:layout_width="377dp"
+        android:layout_height="440dp"
+        android:contentDescription="@string/TODO"
+        android:src="@drawable/man"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/guest_btn"
+        android:layout_width="277dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="213dp"
+        android:onClick="callParkingSlot"
+        android:background="#283593"
+        android:textColor="@color/white"
+        android:text="@string/guest" />
+
+    <Button
+        android:id="@+id/shopkeeper_btn"
+        android:layout_width="278dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="#283593"
+        android:onClick="callLoginScreen"
+        android:textColor="@color/white"
+        android:text="@string/shopkeeper"
+        android:transitionName="transition_login"/>
+
+
+</RelativeLayout>

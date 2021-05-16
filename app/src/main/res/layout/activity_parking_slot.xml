@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParkingSlot"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="136dp"
+        android:src="@drawable/car_parking_2"
+        android:onClick="callStartScreen"
+        android:id="@+id/Logo_image"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="556dp"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/slot1"
+            android:layout_width="196dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="#2A1565C0"
+            android:text="Slot1"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/car_image1"
+            android:layout_width="145dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-90dp"
+            android:layout_marginBottom="-120dp"
+            android:src="@drawable/car" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="556dp"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/slot2"
+            android:layout_width="199dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:background="#281565C0"
+            android:text="Slot2"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/car_image2"
+            android:layout_width="145dp"
+            android:layout_height="93dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-90dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/car" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="556dp"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/slot3"
+            android:layout_width="201dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="370dp"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:background="#2A1565C0"
+            android:text="Slot3"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/car_image3"
+            android:layout_width="145dp"
+            android:layout_height="93dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-90dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/car" />
+
+    </LinearLayout>
+
+</RelativeLayout>
